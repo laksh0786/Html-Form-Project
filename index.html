@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>CAR FEEDBACK FORM</title>
+</head>
+<body>
+    <h1 align="center">CAR DEALERSHIP</h1>
+    <form>
+
+        <label for="name">NAME : </label>                             
+        <input type="text" name="yourname" id="name" placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="age" >AGE:</label>
+        <input type="number" id="age"  name="AGE" placeholder="Eg. 29">
+
+        <br><br>
+
+        <label for="carmodel">Car Model: </label>
+        <input type="text" id="carmodel" name="Carmodel" placeholder="Eg Hyundai Verna">
+
+        <br><br>
+
+        <label for="">CAR TYPE: </label>
+        <input id="newcar" name="type" type="radio" value="NEWCAR" >
+        <label for="newcar">NEW CAR</label>
+        <input name="type" type="radio" value="" id="usedcar" value="USEDCAR">
+        <label for="usedcar">USED CAR</label>
+
+        <br><br>
+
+        <label for="">Price Range: </label>
+        <select name="Price" id="">
+            <option value="">Select</option>
+            <option value="less_than_5_lac"> &lt; 5 lacs </option>
+            <option value="5-10_lacs"> 5-10 lacs</option>
+            <option value="10-20_lacs"> 10-20 lacs</option>
+            <option value="gretaer_than_20_lacs"> &gt; 20 lacs</option>
+        </select>
+
+        <br><br>
+
+        <label for="your_feedback">Your Opinions</label>
+        <textarea name="feedback" id="your_feedback" cols="30" rows="2" placeholder="Feedback"></textarea>
+        
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>
